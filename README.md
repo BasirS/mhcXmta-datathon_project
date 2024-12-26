@@ -127,9 +127,13 @@ Use your preferred SQL client to run queries in the `sql/` directory.
 5. Open Tableau workbooks:
 Load `tableau/visualizations.twbx` to explore dashboards.
 
+---
+
 ## 📚 References
 - ["Making Fair Fares More Fair for More People"](https://pcac.org/report/fairfares/)
 - ["Public Transportation Subsidies and Racial Equity"](https://static1.squarespace.com/static/53ee4f0be4b015b9c3690d84/t/666caf05ec78896060ea6814/1718398727325/Public-Transportation-Subsidies-and-Racial-Equity_A-Case-Study_NYC-Ferry-and-Fair-Fares-2024_Final-061424.pdf)
 - [NYC Open Data portal](https://data.ny.gov/browse?q=&sortBy=relevance)
+
+---
 
 **🎉 Let’s create meaningful insights and make public transportation more equitable for NYC!**
