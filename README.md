@@ -2,7 +2,7 @@
 ### 🏆 MHC × MTA Inaugural Datathon Project  
 
 ## 🌟 Overview  
-This project explores the **Fair Fares NYC** program, which provides discounted metro cards for eligible residents. Our goal is to analyze the impact of expanding eligibility criteria to include individuals earning up to **200% of the federal poverty level**, focusing on transportation access in key neighborhoods:  
+This project explores the **Fair Fares NYC** program, which provides discounted metro cards for eligible residents. My goal is to analyze the impact of expanding eligibility criteria to include individuals earning up to **200% of the federal poverty level**, focusing on transportation access in key neighborhoods:  
 - Elmhurst/Jackson Heights  
 - Flushing  
 - Sunset Park  
