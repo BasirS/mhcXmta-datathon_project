@@ -1,5 +1,6 @@
 # 🚇 Fair Fares NYC: Expanding Access to Affordable Transportation
 
+🏆 MHC × MTA Inaugural Datathon Project
 For my Datathon project, I'm analyzing Fair Fares ridership data in NYC to understand how expanding eligibility can improve access to affordable public transportation. I'm using data analysis and visualization techniques to identify key insights and inform policy recommendations. This project will allow me to develop my data analytics skills while contributing to a valuable cause.
 
 ---
@@ -172,4 +173,4 @@ Use Tableau Desktop to load `.twbx` files and explore dashboards and/or other vi
 
 ---
 
-**🎉 Let’s make public transportation more equitable for all New Yorkers!** 🏆
+**🎉 Let’s make public transportation more equitable for all New Yorkers!**
