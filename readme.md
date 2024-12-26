@@ -1,5 +1,9 @@
 # 🚇 Fair Fares NYC: Expanding Access to Affordable Transportation
 
+For my Datathon project, I'm analyzing Fair Fares ridership data in NYC to understand how expanding eligibility can improve access to affordable public transportation. I'm using data analysis and visualization techniques to identify key insights and inform policy recommendations. This project will allow me to develop my data analytics skills while contributing to a valuable cause.
+
+---
+
 ## 🌟 Overview
 This project explores the **Fair Fares NYC** program, which provides discounted metro cards for eligible residents. My goal is to analyze the impact of expanding eligibility criteria to include individuals earning up to **200% of the Federal Poverty Level (FPL)**, focusing on affordable transportation access in six key neighborhoods:  
 - Elmhurst/Jackson Heights  
