@@ -1,5 +1,5 @@
 # 🚇 Fair Fares NYC: Expanding Access to Affordable Transportation  
-### 🏆 MHC × MTA Inaugural Datathon Project  
+### 🏆 **MHC × MTA Inaugural Datathon Project**  
 
 ## 🌟 Overview
 This project explores the **Fair Fares NYC** program, which provides discounted metro cards for eligible residents. My goal is to analyze the impact of expanding eligibility criteria to include individuals earning up to **200% of the Federal Poverty Level (FPL)**, focusing on affordable transportation access in six key neighborhoods:  
