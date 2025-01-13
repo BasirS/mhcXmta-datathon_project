@@ -94,6 +94,7 @@ mhcXmta_datathon_project/
 │   ├── team_contributions.md
 │
 ├── readme.md
+├── .gitignore
 ├── code.py                 
 ├── requirements.txt        
 ├── environment.yml           
