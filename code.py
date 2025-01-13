@@ -16,7 +16,7 @@ from geopy.distance import great_circle
 import math
 from tabulate import tabulate
 
-# Import the csv files into files -> extract it
+# Import the csv files into files and extract it
 
 # Bus Data
 file_path = '/content/MTA_Bus_Hourly_Ridership_Since_April2024.csv'
