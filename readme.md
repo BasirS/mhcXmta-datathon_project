@@ -56,11 +56,10 @@ mhcXmta_datathon_project/
 │       ├── Public-Transportation-Subsidies-and-Racial-Equity.pdf
 │
 ├── notebooks/               
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_neighborhood_analysis.ipynb
-│   ├── 04_cuny_analysis.ipynb
-│   ├── 05_visualizations.ipynb
+│   ├── 01_exploratory_analysis.ipynb
+│   ├── 02_neighborhood_analysis.ipynb
+│   ├── 03_cuny_analysis.ipynb
+│   ├── 04_visualizations.ipynb
 │
 ├── sql/                      
 │   ├── subway_ridership_queries.sql
