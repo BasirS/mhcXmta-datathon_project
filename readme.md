@@ -91,7 +91,6 @@ mhcXmta_datathon_project/
 ├── docs/                    
 │   ├── methodology.md
 │   ├── references.md
-│   ├── team_contributions.md
 │
 ├── readme.md
 ├── .gitignore
