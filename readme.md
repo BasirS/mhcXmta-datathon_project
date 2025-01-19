@@ -65,11 +65,6 @@ mhcXmta_datathon_project/
 │   ├── subway_ridership_queries.sql
 │   ├── bus_ridership_queries.sql
 │
-├── scripts/                  
-│   ├── data_preprocessing.py
-│   ├── analysis_helpers.py
-│   ├── visualization_helpers.py
-│
 ├── tableau/                 
 │   ├── visualizations.twbx
 │
@@ -81,11 +76,7 @@ mhcXmta_datathon_project/
 │       ├── expansion_impact_dashboard.twbx
 │
 ├── config/                  
-│   ├── settings.json         
-│
-├── tests/                   
-│   ├── test_data_preprocessing.py
-│   ├── test_analysis_helpers.py
+│   ├── settings.json
 │
 ├── docs/                    
 │   ├── methodology.md
