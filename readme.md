@@ -1,13 +1,11 @@
-# 🚇 Fair Fares NYC: Expanding Access to Affordable Transportation - \*Work In-Progress\*
+# 🚇 Fair Fares NYC: Expanding Access to Affordable Transportation
+🏆 MHC × MTA Inaugural Datathon Project 2024
 
-🏆 MHC × MTA Inaugural Datathon Project
-
-I'm analyzing Fair Fares ridership data in NYC to understand how expanding eligibility can improve access to affordable public transportation. I'm using data analysis and visualization techniques to identify key insights and inform policy recommendations. This project will allow me to develop my data analytics skills while contributing to a valuable cause.
+This comprehensive analysis explores Fair Fares ridership data in NYC to understand how expanding eligibility can improve access to affordable public transportation. Using advanced data analysis techniques and visualization approaches, we identify key insights to inform policy recommendations that could make public transit more equitable for all New Yorkers.
 
 ---
-
 ## 🌟 Overview
-This project explores the **Fair Fares NYC** program, which provides discounted metro cards for eligible residents. My goal is to analyze the impact of expanding eligibility criteria to include individuals earning up to **200% of the Federal Poverty Level (FPL)**, focusing on affordable transportation access in six key neighborhoods:  
+The Fair Fares NYC program provides discounted metro cards for eligible residents, currently serving those at 120% of the Federal Poverty Level (FPL). Our analysis evaluates the potential impact of expanding eligibility to 200% FPL, with a focused examination of six key neighborhoods:
 - Elmhurst/Jackson Heights  
 - Flushing  
 - Sunset Park  
@@ -16,27 +14,37 @@ This project explores the **Fair Fares NYC** program, which provides discounted 
 - Highbridge  
 
 ### 💡 Research Question  
-**How can expanding Fair Fares eligibility criteria to 200% of the FPL improve access to affordable public transportation in underserved NYC neighborhoods? Which subway lines, bus routes, and stations should be prioritized for expansion to maximize equity and usage?**  
+How can expanding Fair Fares eligibility criteria to 200% of the FPL improve access to affordable public transportation in underserved NYC neighborhoods? Which subway lines, bus routes, and stations should be prioritized for expansion to maximize equity and usage?
 
 ---
+## 🎯 Project Goals and Achievements 
+1. 🛤️ **Usage Pattern Analysis**  
+   - Identified peak usage times (8:00 AM and 6:00 PM)
+   - Discovered 1.77x higher weekday vs weekend usage
+   - Mapped network effects between connected stations
 
-## 🎯 Project Goals  
-1. 🛤️ **Identify Usage Patterns**  
-   - Analyze how Fair Fares riders use subway and bus systems.  
 2. 🗺️ **Neighborhood Accessibility Analysis**  
-   - Evaluate ridership trends in Elmhurst, Flushing, Sunset Park, and other focus areas to determine transit equity gaps.  
-3. 🎓 **Impact on CUNY Campuses**  
-   - Understand ridership trends around commuter-heavy CUNY colleges, like Baruch, BMCC, and Hunter College.  
-4. 📊 **Inform Policy Recommendations**  
-   - Provide actionable insights for program expansion and public education campaigns. 
+   - Found highest adoption in Morrisania (9.57%) and Highbridge (8.50%)
+   - Identified critical transfer points in each focus area
+   - Mapped geographic spread of program adoption
+
+3. 🎓 **CUNY Campus Impact**  
+   - Analyzed ridership patterns around 2-year and 4-year institutions
+   - Identified peak academic hours usage
+   - Evaluated bus-subway integration near campuses
+
+4. 📊 **Policy Insights**  
+   - Developed data-driven expansion recommendations
+   - Identified high-impact transfer points
+   - Created temporal usage profiles
 
 ---
-
-## 🛠️ Tools and Technologies  
-- **Python**: Data processing, cleaning, and statistical analysis 📊  
-- **SQL**: Querying MTA ridership datasets for granular insights 🗄️  
-- **Tableau**: Creating compelling data visualizations 📈  
-- **Jupyter Notebooks**: Documenting workflows and presenting data narratives 📒  
+## 🛠️ Technical Framework  
+- **Python**: Advanced data processing with memory optimization
+- **SQL**: Complex queries for pattern analysis
+- **Visualization**: Interactive maps and statistical charts
+- **Jupyter**: Documented analysis workflow
+- **Version Control**: Git-based collaboration
 
 ---
 
@@ -45,40 +53,65 @@ This project explores the **Fair Fares NYC** program, which provides discounted 
 ```
 mhcXmta_datathon_project/
 ├── data/                     
-│   ├── raw/                  
-│   │   ├── subway_hourly_ridership.csv
-│   │   ├── bus_hourly_ridership.csv
-│   ├── processed/           
-│       ├── subway_cleaned.csv
-│       ├── bus_cleaned.csv
-│   ├── additional_reports/   
+│   ├── raw/                                          # Original MTA datasets                 
+│   │   ├── README.md                                 # Access to large datasets from Dropbox
+│   ├── processed/                                    # Cleaned and optimized data           
+│       ├── README.md                                 # Access to large datasets from Dropbox
+│   ├── additional_reports/                           # Supporting documentation   
 │       ├── Fair-Fares-Expansion-Full-Report.pdf
 │       ├── Public-Transportation-Subsidies-and-Racial-Equity.pdf
 │
 ├── notebooks/               
-│   ├── 01_exploratory_analysis.ipynb
-│   ├── 02_neighborhood_analysis.ipynb
-│   ├── 03_cuny_analysis.ipynb
-│   ├── 04_visualizations.ipynb
+│   ├── 01_exploratory_analysis.ipynb                 # Initial data exploration
+│   ├── 02_neighborhood_analysis.ipynb                # Geographic patterns
+│   ├── 03_cuny_analysis.ipynb                        # Campus impact
+│   ├── 04_visualizations.ipynb                       # Complex pattern analysis
 │
 ├── sql/                      
-│   ├── subway_ridership_queries.sql
-│   ├── bus_ridership_queries.sql
+│   ├── subway_ridership_queries.sql                  # Subway analysis queries
+│   ├── bus_ridership_queries.sql                     # Bus pattern queries
 │
 ├── tableau/                 
-│   ├── visualizations.twbx
+│   ├── Comparison of Geographics.twb                 # Tableau work
+│   ├── subway_chart.png
+│   ├── subway_map_1.png
+│   ├── subway_map_2.png
+│   ├── bus_treemap.png
+│   ├── NYC Aging Service Providers.cpg               # All these files for practice 
+│   ├── NYC Aging Service Providers.dbf
+│   ├── NYC Aging Service Providers.prj
+│   ├── NYC Aging Service Providers.qmd
+│   ├── NYC Aging Service Providers.shp
+│   ├── NYC Aging Service Providers.shx
 │
 ├── results/                  
-│   ├── charts/
-│   │   ├── ridership_heatmap.png
-│   │   ├── neighborhood_trends.png
-│   ├── dashboards/
-│       ├── expansion_impact_dashboard.twbx
+│   ├── charts/                                       # Statistical visualizations
+│   │   ├── eda_viz1s.png                             # EDA visualization for Subway (s)
+│   │   ├── eda_viz1b.png                             # EDA visualization for Bus (b)
+│   │   ├── eda_viz2s.png
+│   │   ├── eda_viz2b.png
+│   │   ├── eda_viz3s.png
+│   │   ├── eda_viz3s.png
+│   │   ├── eda_viz4s.png
+│   │   ├── eda_viz4b.png
+│   │   ├── eda_viz5.png
+│   │   ├── bus&subway_viz.png
+│   │   ├── bus&subway_neighborhood_viz.png
+│   │   ├── bus&subway_peak_k/share_viz.png
+│   │   ├── bus&subway_cuny_viz.png
+│   │   ├── cuny_stations_viz.png
+│   │   ├── 4_year_transfer_times_viz.png
+│   │   ├── 2_year_transfer_times_viz.png
+│   │   ├── network_analysis_viz.png
+│   │   ├── time_series_viz.png
+│   │   ├── cross-system_transfers_viz.png
+│   ├── maps/                                        # Interactive geographic analysis
+│       ├── fair_fares_heatmap.html
 │
-├── config/                  
+├── config/                                          # Analysis parameters              
 │   ├── settings.json
 │
-├── docs/                    
+├── docs/                                            # Technical documentation                 
 │   ├── methodology.md
 │   ├── references.md
 │
@@ -90,51 +123,53 @@ mhcXmta_datathon_project/
 └── LICENSE                  
 ```
 
-
 ---
 
 ## 📊 Methodology  
 
-### 1️⃣ **Data Collection and Cleaning**  
-- Extract hourly ridership datasets for buses and subways from NYC Open Data.
-- Use Python scripts to preprocess datasets (e.g., handle missing data, detect outliers, and prepare datasets) for analysis.  
 
-### 2️⃣ **SQL Querying**  
-- Extract and aggregate ridership data by time of day, subway line, bus route, borough, and neighborhood to identify patterns.  
+### 1️⃣ Data Processing and Optimization
+- Implemented chunked processing for 10GB+ datasets
+- Developed memory-efficient analysis pipelines
+- Created optimized data structures
 
-### 3️⃣ **Exploratory Data Analysis (EDA)**  
-- Investigate ridership trends and identify the most-used subway lines and bus routes for Fair Fares riders.
-- Create visualizations to compare subway and bus usage across boroughs and stations.
-- Map the ridership heat in underserved neighborhoods.  
+### 2️⃣ Network Analysis
+- Mapped station connectivity patterns
+- Analyzed transfer behaviors
+- Identified usage correlation clusters
 
-### 4️⃣ **Granular Neighborhood Focus**  
-- Deep dive into the six target neighborhoods, correlating ridership data with demographics, income, and proximity to CUNY campuses.
-- Compare scenarios before and after eligibility expansion.  
+### 3️⃣ Temporal Pattern Analysis
+- Discovered peak usage periods
+- Mapped seasonal variations
+- Analyzed weekday/weekend differences
 
-### 5️⃣ **CUNY Campus Ridership**  
-- Evaluate subway and bus usage near high-density commuter schools, focusing on differences between 2-year and 4-year institutions.  
-
-### 6️⃣ **Visualizations**  
-- Use Tableau to create:  
-  - Ridership distribution charts by subway lines and bus routes.  
-  - Geographic heatmaps for Fair Fares riders.  
-  - Dashboard simulations of pre- and post-eligibility expansion ridership.  
+### 4️⃣ Cross-System Integration
+- Evaluated bus-subway coordination
+- Analyzed transfer efficiencies
+- Mapped system synchronization
 
 ---
 
-## 🚀 Results  
-_To Be Completed_  
+## 🚀 Key Findings  
 
-### 📈 Visualizations  
-_To Be Completed_  
+### Network Patterns
+- Strong correlation in Fair Fares usage between connected stations
+- Higher adoption rates in areas with efficient transfers
+- Clear geographic spread patterns
 
-### 🔍 Interpretation of Findings  
-_To Be Completed_  
+### Temporal Insights
+- Morning peak: 8:00 AM (2x average ridership)
+- Evening peak: 6:00 PM (1.8x average)
+- October shows highest monthly usage
+
+### System Integration
+- 98% correlation between bus and subway patterns
+- 3-hour offset between mode peaks
+- Higher transfer rates on bus routes
 
 ---
-
 ## 📜 Conclusion  
-As my project aimed to illustrate how expanding Fair Fares eligibility criteria can address transit inequities and improve access to opportunities for NYC residents living paycheck-to-paycheck...
+Our analysis demonstrates that expanding Fair Fares eligibility to 200% FPL could significantly improve transit accessibility for working New Yorkers. Key opportunities include optimizing transfer points, adjusting service timing, and enhancing cross-mode integration. Strategic implementation focusing on high-impact areas could maximize the program's effectiveness while maintaining operational efficiency.
 
 ---
 
@@ -150,11 +185,13 @@ As my project aimed to illustrate how expanding Fair Fares eligibility criteria 
    pip install -r requirements.txt
 
 3. Run Jupyter Notebooks:
-- Open Jupyter Notebooks (`.ipynb` files) in your preferred environment (Google Colab, Jupyter Lab, etc.).
-- Run SQL scripts using your SQL client.
+- Open Jupyter Notebooks (`.ipynb` files) in your preferred environment (Google Colab, Jupyter Lab, etc.) in sequential order.
+- Run SQL scripts using your SQL client and use all the provided SQL queries for detailed analysis.
 
 4. Open Tableau workbooks:
 Use Tableau Desktop to load `.twbx` files and explore dashboards and/or other visualizations.
+
+5. Explore interactive visualizations in results/maps!
 
 ---
 
@@ -165,4 +202,4 @@ Use Tableau Desktop to load `.twbx` files and explore dashboards and/or other vi
 
 ---
 
-**🎉 Let’s make public transportation more equitable for all New Yorkers!**
+**Together, we're making public transportation more equitable for all New Yorkers!🎉**
