@@ -1,0 +1,44 @@
+{
+    "data_paths": {
+        "raw_data": {
+            "subway": "../data/raw/subway_hr_ridership.csv",
+            "bus": "../data/raw/bus_hr_ridership.csv"
+        },
+        "processed_data": {
+            "subway": "../data/processed/subway_cleaned.csv",
+            "bus": "../data/processed/bus_cleaned.csv"
+        },
+        "output": "../results/charts/"
+    },
+    "analysis_parameters": {
+        "temporal": {
+            "peak_hours": {
+                "morning": [6, 10],
+                "evening": [16, 20]
+            },
+            "weekend_days": ["Saturday", "Sunday"]
+        },
+        "network": {
+            "transfer_threshold": 0.5,
+            "connection_radius": 0.5,
+            "min_ridership": 1000
+        },
+        "integration": {
+            "correlation_window": "1D",
+            "transfer_time_limit": 120
+        }
+    },
+    "visualization_settings": {
+        "color_scheme": {
+            "subway": "#1f77b4",
+            "bus": "#ff7f0e",
+            "fair_fares": "#2ca02c"
+        },
+        "plot_dimensions": {
+            "default": [12, 6],
+            "detailed": [15, 10]
+        }
+    }
+}
+
+im attaching an initial presentation i created with my team and the blue presentation which im working on and could use your help to quickly add every kind of info i could add, and please, make sure to help me quickly finish this presentation in the most time-efficient way possible by specifying what could be the most meaningful viz i could use (and from which section/.ipynb file) in the presentation...
