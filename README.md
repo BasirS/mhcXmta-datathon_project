@@ -54,7 +54,7 @@ How can expanding Fair Fares eligibility criteria to 200% of the FPL improve acc
 mhcXmta_datathon_project/
 ├── data/                     
 │   ├── raw/                                          # Original MTA datasets                 
-│   │   ├── README.md                                 # Access to large datasets from Dropbox
+│   │   ├── readme.md                                 # Access to large datasets from Dropbox
 │   ├── processed/                                    # Cleaned and optimized data           
 │       ├── README.md                                 # Access to large datasets from Dropbox
 │   ├── additional_reports/                           # Supporting documentation   
