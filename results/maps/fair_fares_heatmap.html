@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b38c336572b0c58869dcece409836909 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b38c336572b0c58869dcece409836909" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b38c336572b0c58869dcece409836909 = L.map(
+                "map_b38c336572b0c58869dcece409836909",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e86004350292b8faafa9bda79e93ee28 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e86004350292b8faafa9bda79e93ee28.addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+            var heat_map_2dff5a3e5fa2976273aced2ebccbf21c = L.heatLayer(
+                [[40.746643, -73.891335, 1.0], [40.74685, -73.891396, 0.015], [40.74685, -73.891335, 1.0], [40.74841, -73.87661, 1.0], [40.742455, -73.88202, 1.0], [40.7596, -73.83003, 1.0], [40.754623, -73.84563, 1.0], [40.739777, -74.00258, 1.0], [40.740894, -74.00169, 1.0], [40.82655, -73.95036, 1.0], [40.82042, -73.93625, 1.0], [40.824783, -73.944214, 1.0], [40.607952, -74.00174, 1.0], [40.629753, -73.976974, 1.0], [40.62067, -73.99042, 1.0], [40.655144, -74.00355, 1.0], [40.75204, -73.92878, 1.0], [40.648937, -74.01001, 1.0], [40.760166, -73.97523, 1.0], [40.764812, -73.97335, 1.0], [40.64507, -74.01403, 1.0], [40.64136, -74.01788, 1.0], [40.768246, -73.981926, 0.25], [40.768295, -73.981735, 1.0], [40.635063, -74.01172, 1.0], [40.595398, -73.76817, 1.0], [40.762527, -73.967964, 1.0], [40.76266, -73.967255, 1.0], [40.757107, -73.97192, 1.0], [40.757553, -73.969055, 1.0], [40.662548, -73.90894, 1.0], [40.67834, -73.91195, 1.0], [40.661453, -73.91633, 1.0], [40.66472, -73.92261, 1.0], [40.835537, -73.9214, 1.0], [40.83377, -73.91844, 1.0], [40.840076, -73.91779, 1.0], [40.839306, -73.9134, 1.0], [40.829994, -73.89187, 1.0], [40.827904, -73.92565, 1.0], [40.827995, -73.925835, 0.983], [40.827995, -73.92565, 1.0], [40.835537, -73.9214, 1.0], [40.83377, -73.91844, 1.0], [40.840076, -73.91779, 1.0], [40.839306, -73.9134, 1.0]],
+                {
+  "minOpacity": 0.3,
+  "maxZoom": 13,
+  "radius": 15,
+  "blur": 10,
+}
+            );
+        
+    
+            heat_map_2dff5a3e5fa2976273aced2ebccbf21c.addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+            var circle_marker_2e0338186c0ad068fd606769cd1ad751 = L.circleMarker(
+                [40.840076, -73.91779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+        var popup_a8207df0caa909f3b672f8c6ef05c502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75fded95a2f471ab268b2b52982bc60a = $(`<div id="html_75fded95a2f471ab268b2b52982bc60a" style="width: 100.0%; height: 100.0%;">Elmhurst/Jackson Heights&lt;br&gt;Fair Fares Usage: 2,052,970 rides</div>`)[0];
+                popup_a8207df0caa909f3b672f8c6ef05c502.setContent(html_75fded95a2f471ab268b2b52982bc60a);
+            
+        
+
+        circle_marker_2e0338186c0ad068fd606769cd1ad751.bindPopup(popup_a8207df0caa909f3b672f8c6ef05c502)
+        ;
+
+        
+    
+    
+            var circle_marker_3869404f640dd955745da819b9b94ee2 = L.circleMarker(
+                [40.840076, -73.91779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+        var popup_38b1f92d7cce7f8357c16225b840f407 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51d39375212d9bca882c2039d4e23928 = $(`<div id="html_51d39375212d9bca882c2039d4e23928" style="width: 100.0%; height: 100.0%;">Flushing&lt;br&gt;Fair Fares Usage: 2,052,970 rides</div>`)[0];
+                popup_38b1f92d7cce7f8357c16225b840f407.setContent(html_51d39375212d9bca882c2039d4e23928);
+            
+        
+
+        circle_marker_3869404f640dd955745da819b9b94ee2.bindPopup(popup_38b1f92d7cce7f8357c16225b840f407)
+        ;
+
+        
+    
+    
+            var circle_marker_8cde028f6e91e777d0502d46e1afb8f1 = L.circleMarker(
+                [40.840076, -73.91779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+        var popup_14c6f6f564281381dc14e0a9e0192c14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56426977b8f2c8ac0f9532cc1bca5048 = $(`<div id="html_56426977b8f2c8ac0f9532cc1bca5048" style="width: 100.0%; height: 100.0%;">Sunset Park&lt;br&gt;Fair Fares Usage: 2,052,970 rides</div>`)[0];
+                popup_14c6f6f564281381dc14e0a9e0192c14.setContent(html_56426977b8f2c8ac0f9532cc1bca5048);
+            
+        
+
+        circle_marker_8cde028f6e91e777d0502d46e1afb8f1.bindPopup(popup_14c6f6f564281381dc14e0a9e0192c14)
+        ;
+
+        
+    
+    
+            var circle_marker_efe6e885c731f48c8b556fe23999e91e = L.circleMarker(
+                [40.840076, -73.91779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+        var popup_a86e11c9548b1a1a6235da98f2b37ce1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3819b03c33ac8454cbcdcf9c713c4f91 = $(`<div id="html_3819b03c33ac8454cbcdcf9c713c4f91" style="width: 100.0%; height: 100.0%;">Brownsville&lt;br&gt;Fair Fares Usage: 2,052,970 rides</div>`)[0];
+                popup_a86e11c9548b1a1a6235da98f2b37ce1.setContent(html_3819b03c33ac8454cbcdcf9c713c4f91);
+            
+        
+
+        circle_marker_efe6e885c731f48c8b556fe23999e91e.bindPopup(popup_a86e11c9548b1a1a6235da98f2b37ce1)
+        ;
+
+        
+    
+    
+            var circle_marker_89cddc7e7b14d9a23e70fc2d2feb45da = L.circleMarker(
+                [40.840076, -73.91779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+        var popup_b6541978d5e96bf9eadfec5cd8f353d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7836b7a6cfd63441fee1e2da51ec2e1 = $(`<div id="html_c7836b7a6cfd63441fee1e2da51ec2e1" style="width: 100.0%; height: 100.0%;">Morrisania&lt;br&gt;Fair Fares Usage: 2,052,970 rides</div>`)[0];
+                popup_b6541978d5e96bf9eadfec5cd8f353d3.setContent(html_c7836b7a6cfd63441fee1e2da51ec2e1);
+            
+        
+
+        circle_marker_89cddc7e7b14d9a23e70fc2d2feb45da.bindPopup(popup_b6541978d5e96bf9eadfec5cd8f353d3)
+        ;
+
+        
+    
+    
+            var circle_marker_20174c168b091bb56abdb641cbc09dd0 = L.circleMarker(
+                [40.840076, -73.91779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b38c336572b0c58869dcece409836909);
+        
+    
+        var popup_bcae1d5e287f4435a27e7a3f5f8f4d51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8b7c5afcb26df175146fb3cc403212e = $(`<div id="html_e8b7c5afcb26df175146fb3cc403212e" style="width: 100.0%; height: 100.0%;">Highbridge&lt;br&gt;Fair Fares Usage: 2,052,970 rides</div>`)[0];
+                popup_bcae1d5e287f4435a27e7a3f5f8f4d51.setContent(html_e8b7c5afcb26df175146fb3cc403212e);
+            
+        
+
+        circle_marker_20174c168b091bb56abdb641cbc09dd0.bindPopup(popup_bcae1d5e287f4435a27e7a3f5f8f4d51)
+        ;
+
+        
+    
+</script>
+</html>
