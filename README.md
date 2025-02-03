@@ -56,7 +56,7 @@ mhcXmta_datathon_project/
 │   ├── raw/                                          # Original MTA datasets                 
 │   │   ├── readme.md                                 # Access to large datasets from Dropbox
 │   ├── processed/                                    # Cleaned and optimized data           
-│       ├── README.md                                 # Access to large datasets from Dropbox
+│       ├── readme.md                                 # Access to large datasets from Dropbox
 │   ├── additional_reports/                           # Supporting documentation   
 │       ├── Fair-Fares-Expansion-Full-Report.pdf
 │       ├── Public-Transportation-Subsidies-and-Racial-Equity.pdf
