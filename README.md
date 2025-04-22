@@ -210,7 +210,7 @@ Use Tableau Desktop to load `.twbx` files and explore dashboards and/or other vi
 
 To share my findings and insights, I created a presentation, which summarizes my findings and includes all visualizations:
 
-- **[Presentation PDF](https://docs.google.com/presentation/d/14yR3qaffQqMxknK5doTbEsqomUEe9Qyv/edit?usp=sharing&ouid=107008341039555976741&rtpof=true&sd=true)**  
+- **[Presentation PDF](https://drive.google.com/file/d/1iYncTgAVjepl0k6ZlnvNAORzEr3IkDY7/view?usp=sharing![image](https://github.com/user-attachments/assets/bcbb9e33-4946-4e20-9646-fb296e67d6a0))**  
 
 ---
 
