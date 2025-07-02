@@ -1,10 +1,10 @@
-# 🚇 Fair Fares NYC: Expanding Access to Affordable Transportation
-🏆 MHC × MTA Inaugural Datathon Project 2024
+#  Fair Fares NYC: Expanding Access to Affordable Transportation
+ MHC × MTA Inaugural Datathon Project 2024
 
 This comprehensive analysis explores Fair Fares ridership data in NYC to understand how expanding eligibility can improve access to affordable public transportation. Using advanced data analysis techniques and visualization approaches, we identify key insights to inform policy recommendations that could make public transit more equitable for all New Yorkers.
 
 ---
-## 🌟 Overview
+##  Overview
 The Fair Fares NYC program provides discounted metro cards for eligible residents, currently serving those at 120% of the Federal Poverty Level (FPL). Our analysis evaluates the potential impact of expanding eligibility to 200% FPL, with a focused examination of six key neighborhoods:
 - Elmhurst/Jackson Heights  
 - Flushing  
@@ -13,33 +13,33 @@ The Fair Fares NYC program provides discounted metro cards for eligible resident
 - Morrisania  
 - Highbridge  
 
-### 💡 Research Question  
+###  Research Question  
 How can expanding Fair Fares eligibility criteria to 200% of the FPL improve access to affordable public transportation in underserved NYC neighborhoods? Which subway lines, bus routes, and stations should be prioritized for expansion to maximize equity and usage?
 
 ---
-## 🎯 Project Goals and Achievements 
-1. 🛤️ **Usage Pattern Analysis**  
+##  Project Goals and Achievements 
+1.  **Usage Pattern Analysis**  
    - Identified peak usage times (8:00 AM and 6:00 PM)
    - Discovered 1.77x higher weekday vs weekend usage
    - Mapped network effects between connected stations
 
-2. 🗺️ **Neighborhood Accessibility Analysis**  
+2.  **Neighborhood Accessibility Analysis**  
    - Found highest adoption in Morrisania (9.57%) and Highbridge (8.50%)
    - Identified critical transfer points in each focus area
    - Mapped geographic spread of program adoption
 
-3. 🎓 **CUNY Campus Impact**  
+3.  **CUNY Campus Impact**  
    - Analyzed ridership patterns around 2-year and 4-year institutions
    - Identified peak academic hours usage
    - Evaluated bus-subway integration near campuses
 
-4. 📊 **Policy Insights**  
+4.  **Policy Insights**  
    - Developed data-driven expansion recommendations
    - Identified high-impact transfer points
    - Created temporal usage profiles
 
 ---
-## 🛠️ Technical Framework  
+##  Technical Framework  
 - **Python**: Advanced data processing with memory optimization
 - **SQL**: Complex queries for pattern analysis
 - **Visualization**: Interactive maps and statistical charts
@@ -48,7 +48,7 @@ How can expanding Fair Fares eligibility criteria to 200% of the FPL improve acc
 
 ---
 
-## 📂 Repository Structure  
+##  Repository Structure  
 
 ```
 mhcXmta_datathon_project/
@@ -129,32 +129,32 @@ mhcXmta_datathon_project/
 
 ---
 
-## 📊 Methodology  
+##  Methodology  
 
 
-### 1️⃣ Data Processing and Optimization
+### 1⃣ Data Processing and Optimization
 - Implemented chunked processing for 10GB+ datasets
 - Developed memory-efficient analysis pipelines
 - Created optimized data structures
 
-### 2️⃣ Network Analysis
+### 2⃣ Network Analysis
 - Mapped station connectivity patterns
 - Analyzed transfer behaviors
 - Identified usage correlation clusters
 
-### 3️⃣ Temporal Pattern Analysis
+### 3⃣ Temporal Pattern Analysis
 - Discovered peak usage periods
 - Mapped seasonal variations
 - Analyzed weekday/weekend differences
 
-### 4️⃣ Cross-System Integration
+### 4⃣ Cross-System Integration
 - Evaluated bus-subway coordination
 - Analyzed transfer efficiencies
 - Mapped system synchronization
 
 ---
 
-## 🚀 Key Findings  
+##  Key Findings  
 
 ### Network Patterns
 - Strong correlation in Fair Fares usage between connected stations
@@ -172,12 +172,12 @@ mhcXmta_datathon_project/
 - Higher transfer rates on bus routes
 
 ---
-## 📜 Conclusion  
+##  Conclusion  
 Our analysis demonstrates that expanding Fair Fares eligibility to 200% FPL could significantly improve transit accessibility for working New Yorkers. Key opportunities include optimizing transfer points, adjusting service timing, and enhancing cross-mode integration. Strategic implementation focusing on high-impact areas could maximize the program's effectiveness while maintaining operational efficiency.
 
 ---
 
-## 🛠️ How to Run the Project  
+##  How to Run the Project  
 
 1. Clone the repository:  
    ```bash
@@ -199,7 +199,7 @@ Use Tableau Desktop to load `.twbx` files and explore dashboards and/or other vi
 
 ---
 
-## 📚 References
+##  References
 - ["Making Fair Fares More Fair for More People"](https://pcac.org/report/fairfares/)
 - ["Public Transportation Subsidies and Racial Equity"](https://static1.squarespace.com/static/53ee4f0be4b015b9c3690d84/t/666caf05ec78896060ea6814/1718398727325/Public-Transportation-Subsidies-and-Racial-Equity_A-Case-Study_NYC-Ferry-and-Fair-Fares-2024_Final-061424.pdf)
 - [NYC Open Data portal](https://data.ny.gov/browse?q=&sortBy=relevance)
@@ -214,4 +214,4 @@ To share my findings and insights, I created a presentation, which summarizes my
 
 ---
 
-**Together, we're making public transportation more equitable for all New Yorkers!🎉**
+**Together, we're making public transportation more equitable for all New Yorkers!**
