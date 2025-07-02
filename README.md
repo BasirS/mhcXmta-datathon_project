@@ -132,22 +132,22 @@ mhcXmta_datathon_project/
 ##  Methodology  
 
 
-### 1⃣ Data Processing and Optimization
+### 1. Data Processing and Optimization
 - Implemented chunked processing for 10GB+ datasets
 - Developed memory-efficient analysis pipelines
 - Created optimized data structures
 
-### 2⃣ Network Analysis
+### 2. Network Analysis
 - Mapped station connectivity patterns
 - Analyzed transfer behaviors
 - Identified usage correlation clusters
 
-### 3⃣ Temporal Pattern Analysis
+### 3. Temporal Pattern Analysis
 - Discovered peak usage periods
 - Mapped seasonal variations
 - Analyzed weekday/weekend differences
 
-### 4⃣ Cross-System Integration
+### 4. Cross-System Integration
 - Evaluated bus-subway coordination
 - Analyzed transfer efficiencies
 - Mapped system synchronization
